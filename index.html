@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wyatt Rucker | Data Portfolio</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: #0f0f0f;
+            color: #f0f0f0;
+        }
+        header {
+            padding: 50px 40px 30px;
+            border-bottom: 1px solid #222;
+        }
+        header h1 { font-size: 2rem; font-weight: 600; }
+        header p { color: #888; margin-top: 8px; font-size: 1rem; }
+        .project {
+            padding: 40px;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        .project h2 { font-size: 1.4rem; margin-bottom: 10px; }
+        .project p { color: #aaa; margin-bottom: 24px; line-height: 1.6; }
+        .dashboard-embed {
+            width: 100%;
+            height: 600px;
+            border: none;
+            border-radius: 8px;
+        }
+        .tags {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        .tag {
+            background: #1e1e1e;
+            border: 1px solid #333;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            color: #aaa;
+        }
+        .divider {
+            border: none;
+            border-top: 1px solid #222;
+            margin: 20px 40px;
+        }
+        footer {
+            text-align: center;
+            padding: 40px;
+            color: #444;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Wyatt Rucker</h1>
+        <p>Data Analyst · Dashboard Developer</p>
+    </header>
+
+    <div class="project">
+        <h2>Fortress Information Security — Employee Review Analysis</h2>
+        <div class="tags">
+            <span class="tag">Looker Studio</span>
+            <span class="tag">Google Sheets</span>
+            <span class="tag">Glassdoor</span>
+            <span class="tag">Data Analysis</span>
+        </div>
+        <p>
+            Compiled and analyzed 60 employee reviews from Glassdoor for Fortress Information Security. 
+            Built an interactive dashboard tracking review scores, sentiment trends, 
+            role breakdowns, and key themes across pros and cons.
+        </p>
+
+        <!-- PASTE YOUR LOOKER STUDIO IFRAME HERE -->
+        <iframe
+            class="dashboard-embed"
+            src="https://datastudio.google.com/embed/reporting/be462225-5ccd-48bb-8ddf-3be5b24cc7de/page/lgE0F">
+        </iframe>
+    </div>
+
+    <footer>
+        Built by Wyatt Rucker · 2026
+    </footer>
+</body>
+</html>
